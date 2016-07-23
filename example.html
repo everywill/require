@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>example</title>
+</head>
+<body>
+	<script type="text/javascript" src="require.js"></script>
+	<script type="text/javascript">
+		require(['script/utils'], function (utils) {
+			utils.each([1, 2, 3], function (i, item) {
+				alert(item);
+			});
+		});
+	</script>
+</body>
+</html>
